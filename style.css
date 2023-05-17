@@ -66,6 +66,7 @@ body {
 }
 .about-container {
     display: flex;
+    gap: 200px;
 }
 .about-img {
     width: 45%;
@@ -83,4 +84,57 @@ body {
 }
 .about-button {
     margin-top: 50px;
+}
+
+
+
+
+/* receipe section */
+.recipes-title {
+    text-align: center;
+    margin-top: 100px;
+}
+.recipes-description {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 18px;
+}
+.recipes-container {
+    display: flex;
+    justify-content: space-between;
+}
+.recipes-half {
+    width: 40%;
+    margin: 50px 0;
+    padding: 35px;
+    box-shadow: 20px 20px 100px gainsboro;
+    border-radius: 20px;
+
+}
+.recipes-half img {
+    width: 100%;
+}
+.recipes {
+    width: 90%;
+    margin: 0 auto;
+}
+.res-con-title {
+    font-size: 24px;
+}
+.res-con-des {
+    font-size: 18px;
+}
+
+
+.container-box {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 20px 20px 100px gainsboro;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+.container-title {
+    font-size: 35px;
+    margin: 30px 0 10px 0;
 }
