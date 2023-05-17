@@ -20,6 +20,10 @@ body {
     width: 90%;
     margin: 0 auto;
 }
+.section-title {
+    font-size: 40px;
+    color: gray;
+}
 
 
 
@@ -49,4 +53,34 @@ body {
 
 .header-img img{
     width: 100%;
+}
+
+
+
+.about {
+    background-image: url(./images/shapes/7.png);
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    margin-top: 100px;
+    background-size: 100%;
+}
+.about-container {
+    display: flex;
+}
+.about-img {
+    width: 45%;
+}
+.about-img img {
+    width: 50%;
+    padding-left: 200px;
+}
+.about-letter {
+    width:45%;
+    align-self: center;
+}
+.about-description {
+    font-size: 18px;
+}
+.about-button {
+    margin-top: 50px;
 }
