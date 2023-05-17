@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.btn-primary {
+    background-color: rgb(255, 69, 0);
+    padding: 15px 25px;
+    border-radius: 35px;
+    border: none;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 2px 10px rgba(255, 68, 0, 0.74);
+    font-size: 20px;
+}
+.section-width {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+/* header section */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+.header-half {
+    align-self: center;
+
+}
+.header-title {
+    font-size: 59px;
+    margin: 20px 0;
+}
+.header-description {
+    color: gray;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 10px 0;
+}
+.header-button {
+    margin-top: 50px;
+}
+
+
+.header-img img{
+    width: 100%;
+}
